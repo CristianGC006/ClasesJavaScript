@@ -160,13 +160,54 @@
 // console.log("Tu salario semanal es de: "+salarioSemanal+ " Pesos")
 
 //Convertir dias a horas,minutos y segundos
-var dias=Number(prompt("Ingresa el numero de dias a convertir"))
-var horas=dias*24
-var minutos=dias*1440
-var segundos=dias*86400
-console.log("Calculando...")
-if(dias<=1){
-console.log(dias+" Día "+ " Equivale a\n " + horas+ " Horas\n"+minutos+" Minutos\n"+segundos+" Segundos")
-}else{
-    console.log(dias+" Días "+ " Equivalen a\n " +horas+ " Horas\n"+minutos+" Minutos\n"+segundos+" Segundos")
-}
+// var dias=Number(prompt("Ingresa el numero de dias a convertir"))
+// var horas=dias*24
+// var minutos=dias*1440
+// var segundos=dias*86400
+// console.log("Calculando...")
+// if(dias<=1){
+// console.log(dias+" Día "+ " Equivale a\n " + horas+ " Horas\n"+minutos+" Minutos\n"+segundos+" Segundos")
+// }else{
+//     console.log(dias+" Días "+ " Equivalen a\n " +horas+ " Horas\n"+minutos+" Minutos\n"+segundos+" Segundos")
+// }
+
+//Solicitar precio de un producto y aplicarle el 10% de descuento a dicho producto
+// var precioProducto=Number(prompt("Ingrese el valor de su producto"))
+// var descuentoDiez=0.10
+// var descuento=precioProducto*descuentoDiez
+// var descuentoAplicado=precioProducto-descuento
+// console.log("El precio de su producto con el descuento aplicado es de: "+descuentoAplicado+" Pesos")
+
+//Intercambio de valores 
+// var num1=Number(prompt("Ingrese su primer valor"))
+// var num2=Number(prompt("Ingrese numero 2"))
+// console.log("Haz ingresado los numeros: "+ num1 +" " + num2)
+// console.log("Su intercambio es: " + num2+" "  + num1)
+
+//Calcular el perimetro de un rectangulo
+// var Longitud=parseInt(prompt("ingresa la longitud del rectangulo"))
+// var Ancho=parseInt(prompt("Ingresa el ancho del rectangulo"))
+// var perimetro=2*(Longitud+Ancho)
+// console.log("El perimetro es: "+perimetro)
+
+//Conversion de libras a Kilos
+// var libras=parseFloat(prompt("Ingrese las libras que quieres convertir a Kilogramos"))
+// var Kilogramos=0.453592
+// var conversion=libras*Kilogramos
+// if(libras<=1){
+//     console.log(libras+" Libra "+" Equivale a: "+conversion+" Kilos")
+// }else{
+// console.log(libras+" Libras "+" Equivalen a: "+conversion+" Kilos")}
+
+//Teorema de pitagoras
+// var catetoA=parseInt(prompt("Ingresa el primer Cateto"))
+// var catetoB=parseFloat(prompt("Ingesa el segundo Cateto"))
+// var Teorema=(catetoA*catetoA)+(catetoB*catetoB)
+// var hipotenusa=Math.sqrt(Teorema)
+// console.log("La hipotenusa es: " + hipotenusa)
+ 
+//Minutos y horas 
+// let minutosTotales = parseInt(prompt("Ingrese el número de minutos:"));
+// let horas = Math.floor(minutosTotales / 60);
+// let minutosRestantes = minutosTotales % 60;
+// console.log(minutosTotales + " minutos son " + horas + " horas y " + minutosRestantes + " minutos.");
