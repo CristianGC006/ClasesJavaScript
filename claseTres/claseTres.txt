@@ -1,0 +1,11 @@
+FUNCIONES
+Es la encapsulacion de código que me permite reutilizarlo donde quiera 
+y cuando quiera, solo con una unica definicion
+
+-->Funciones regulares/tradicionales:
+    Funciones de expresión
+    Funciones declarativas
+-->Funciones Flecha:
+    Funciones de expresión
+-->Funciones anonimas:
+    Funciones anonimas
