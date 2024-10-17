@@ -3,9 +3,11 @@ Es la encapsulacion de código que me permite reutilizarlo donde quiera
 y cuando quiera, solo con una unica definicion
 
 -->Funciones regulares/tradicionales:
-    Funciones de expresión
-    Funciones declarativas
+    Funciones de expresión:Tiene un alcance local, Solo aplica despues de su definicion (Se puede invocar las veces que sea necesario siempre y cunado no esté por encima de ella)
+    Funciones declarativas:Tiene un alcance Global (Hosting de todo el documento), es decir puede estar arriba, al final o donde sea en el documento y se podrá usar en todo el documento sin problema alguno.
 -->Funciones Flecha:
     Funciones de expresión
 -->Funciones anonimas:
     Funciones anonimas
+
+-Una funcion siempre debe tener un nombre y una declaracion; es decir una declaracion y una invocacion
