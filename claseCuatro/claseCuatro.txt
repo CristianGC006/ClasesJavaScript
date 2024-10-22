@@ -1,0 +1,7 @@
+Retomando las funciones, todas las funciones reciben arguentos y parametros.
+    Argumentos:Son los valores reales que se envian en el llamado dde las funciones
+    parametros:Son los placeholers o variables temporales que se invocan en la definicion
+    de la funcion.
+
+Return:Solo puede existir un unico retorno por funcion. El retorno no es el valor 
+o el objeto  que se devuelve, sino el valor de la expresion que se encuentra en la ultima
